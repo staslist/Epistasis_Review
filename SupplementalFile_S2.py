@@ -951,7 +951,7 @@ def report_plink_epistasis_results(fname_json:str, inter_dis_snp_indeces:list, f
 def generate_slurm_batch_job_for_plink_epistasis(job_name:str, files:list, epi_thresh:float):
     with open(job_name + '.sh', 'w') as f:
         f.write('#!/bin/sh\n')
-        f.write('#SBATCH --job-name=SL_Hail_NA_GWAS\n')
+        f.write('#SBATCH --job-name=SL_Epistasis\n')
         f.write('#SBATCH --nodes=1\n')
         f.write('#SBATCH --ntasks=1\n')
         f.write('#SBATCH --cpus-per-task=8\n')
@@ -1590,8 +1590,7 @@ def test_suite():
 # Run the unit tests.
 test_suite()
 
-#for file in (files + files_dominant + files_recessive + files_bonus):
-for file in ['Pure_Multiplicative_TwoPairs_BaselineAlpha10_InteractionAlpha125_Chr1_CEU_SNP10000_IND5000_MAF005_02']:
+for file in (files + files_dominant + files_recessive + files_bonus):
     indir = 'C:/Stas/LabWork/Bioinformatics/Projects/Ch4_GWAS/epigen/sim/'
     fname = indir + file + '.json' 
     
@@ -1641,7 +1640,7 @@ for file in ['Pure_Multiplicative_TwoPairs_BaselineAlpha10_InteractionAlpha125_C
     #     print()
     
     #convert_epigent_qt_to_cc(fname)
-    convert_epigen_to_ped_and_map(fname)
+    #convert_epigen_to_ped_and_map(fname)
     #convert_epigen_json_to_genotype_csv(fname, True)
     #convert_epigen_json_to_EpiSNP_files(fname)
     #print(get_disease_snps_from_epigen_json(fname, inter_dis_snp_indeces))
@@ -1657,39 +1656,7 @@ for file in ['Pure_Multiplicative_TwoPairs_BaselineAlpha10_InteractionAlpha125_C
     
     #convert_ped_and_map_to_SNPassoc_csv(fname4 + '.ped', fname4 + '.map')
 
-# generate_slurm_batch_job_for_plink_epistasis("run_plink_epistasis_100000snp_qt", files2, 5e-12)
 
-# plt.tight_layout()
-# fig, ax = plt.subplots()
-# # BAR CHART
-# ax.set_yticks([0,1,2,3,4,5,6,7,8,9,10,11,12,13])
-# ax.set_yticklabels(['MIDESP IA1.25', 'MIDESP IA1.5', 'Matrix IA1.25', 'Matrix IA1.5', 'Plink IA1.25', 'Plink IA1.5', 
-#                     'BOOST IA1.25', 'BOOST IA1.5', 'EpiSNP IA1.25', 'EpiSNP IA1.5', 'MDR IA1.25', 'MDR IA1.5',
-#                     'QMDR IA1.25', 'QMDR IA1.5'])
-# ax.set_ylabel('True Positive %')
-# print(inspect.signature(ax.set_yticks))
-# plt.barh([0,1,2,3,4,5,6,7,8,9,10,11,12,13],
-#           [2/6*100, 4/6*100, 0, 1/6*100, 0, 1/6*100, 0, 0, 1/6*100, 0, 50, 50, 2/6*100, 50],
-#           color = ['red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue',
-#                    'red', 'blue', 'red', 'blue', 'red', 'blue'])
-
-# VIOLIN PLOT
-# ax.set_yticks([1,2,3])
-# ax.set_yticklabels(['MIDESP XOR', 'BOOST XOR', 'MDR XOR'])
-# ax.set_ylabel('TP Avg. Position')
-
-# ax.violinplot([[42.71, 24.8, 3.5, 4],
-#                [1, 1, 1.5, 1.5],
-#                [63.75, 121.71, 16.3, 85]], positions = [1,2,3], showmeans = True, 
-#                vert = False)
-# ax.scatter([42.71, 24.8, 3.5, 4,
-#             1, 1, 1.5, 1.5,
-#             63.75, 121.71, 16.3, 85],
-#            [1,1,1,1, 
-#             2,2,2,2, 
-#             3,3,3,3])
-
-# plt.savefig('filename.png', dpi=300, bbox_inches="tight")
 
 
 
