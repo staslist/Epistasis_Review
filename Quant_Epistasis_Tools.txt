@@ -1,0 +1,39 @@
+Ready to use tools:
+
+Conditions for use: SNP to SNP analysis, Supports Continous Phenotype, Well Documented, Easy to Install and Use, Runtime Efficiency (analyze 1000 individuals x 1000 SNPs < 60 minutes)
+Additionally, let us include 2-3 case-control tools with discretized phenotype. 
+
+Matrix Epistasis (Linear Regression) - EVALUATED
+MIDESP (Mutual Information) - EVALUATED
+Plink (Linear Regression) - EVALUATED
+QMDR (MDR) - EVALUATED (MEETS ALL CONDITIONS)
+EpiSNP (general linear model) - EVALUATED (check runtime efficiency)
+
+Plink (BOOST - DISCRETIZED) - EVALUATED
+QMDR or MDR (MDR - DISCRETIZED) - EVALUATED
+
+GMDR (MDR) - VIABLE, BUT SIMILAR PERFORMANCE TO QMDR
+SNPassoc (log likelihoood ratio test?) - VIABLE, BUT INCONVENIENT TO USE AND PRONE TO ERRORS - VERY SLOW RUNTIME (>>1hour for 1000 SNPs) - executes in few minutes if NUMBER OF SNPs TO TEST <100
+WISH-R (Pre-Filtering + Linear Regression) - FAILED INSTALLATION - CAN BE USED AS INSPIRATION FOR PRE (FILTERING) and POST (NETWORK ANALYSIS) STEPS
+FastANOVA (ANOVA) - FAILED INSTALLATION - COULD USE PUBLICATION AND SOURCE CODE TO RE-IMPLEMENT
+
+Outlined Methods:
+Combinatorial Partitioning
+QMDR, GMDR
+LASSO
+SCAD
+MUSE
+Gene-based gene-gene interaction (GGG) tests
+
+Proposed Methods:
+Random Forest (extended for quantitative phenotype)
+Notably, authors of many epistasis detection methods for binary case-control phenotype claim that their methods can 
+be extended to quantitative phenotypes. 
+Additionally, I have seen at least one case of authors discretizing their phenotype (ex: BMI) into case-control setup.
+
+Possbile Filters:
+Domain-based hypothesis
+Protein-protein Interactions
+Pathways
+Marginal Epistasis
+GWAS
