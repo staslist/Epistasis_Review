@@ -136,20 +136,24 @@ def report_remma_epistasis_results(fname_json:str, fname_xml:str, sim_data:str, 
 
 	# Get positions of interacting SNP pairs
 	inter_dis_snp_indeces = extract_interaction_pos(fname_xml)
+	#print(inter_dis_snp_indeces)
 	# Get SNP numbers from positions (mentor's function)
 	inter_dis_snps = get_disease_snps_from_epigen_json(fname_json, inter_dis_snp_indeces)
 	# Number of true positives is number of pairs
 	num_tps = len(inter_dis_snps)
+	#print(inter_dis_snps)
 
 	config_list = ['aa1', 'aa2', 'aa3', 'ad', 'dd']
 	epi_results = {}
 	# Iterate through all configurations 
 	for config in config_list: 
 		# Get path to output file 
-		if config == 'aa1' or config == 'aa2' or config == 'aa3':
-			path = config+'/'+config+'_'+sim_data+'/epiAA_'+config+'_'+sim_data 
+		if config == 'aa1':
+			path = config+'/'+config+'_'+sim_data+'/epiAA_'+config+'_'+sim_data+'.anno' 
+		elif config == 'aa2' or config == 'aa3':
+			path = config+'/'+config+'_'+sim_data+'/epiAA_'+config+'_'+sim_data+'.anno'
 		else:
-			path = config+'/'+config+'_'+sim_data+'/epi'+config.upper()+'_'+config+'_'+sim_data 
+			path = config+'/'+config+'_'+sim_data+'/epi'+config.upper()+'_'+config+'_'+sim_data+'.anno' 
 		# Read file contents and get results
 		with open(path, 'r') as f:
 			lines = f.readlines()
@@ -160,7 +164,8 @@ def report_remma_epistasis_results(fname_json:str, fname_xml:str, sim_data:str, 
 				if (pval >= 1e-7):
 					continue
 				# Extract corresponding pair
-				key = (line[0], line[1])
+				key = (line[0], line[7])
+				#print(key)
 				# Add pair and p-value to results
 				if key in epi_results:
 					# Handle overlapping results between configurations by recording lowest p-value
