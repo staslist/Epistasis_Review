@@ -1,0 +1,1233 @@
+INFO:numexpr.utils:Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:###########################Read the SNP and calculate###########################
+INFO:root:Loading bim file Impure_Dominant_OnePair_BaselineAlpha10_InteractionAlpha16_Chr1_CEU_SNP1000_IND1000_MAF005_02.bim
+INFO:root:Loading fam file Impure_Dominant_OnePair_BaselineAlpha10_InteractionAlpha16_Chr1_CEU_SNP1000_IND1000_MAF005_02.fam
+INFO:root:There are 1000 individuals, 1000 SNPs.
+  0%|          | 0/10 [00:00<?, ?it/s] 90%|█████████ | 9/10 [00:00<00:00, 89.47it/s]100%|██████████| 10/10 [00:00<00:00, 92.25it/s]
+INFO:root:Running time: Clock time, 0.11836 sec; CPU time, 1.40983 sec.
+INFO:root:#####################################Output#####################################
+INFO:root:The prefix of output file is ./add_genom_rel_matrix_dd_impure_dom_onepair_interalpha16
+INFO:root:###########################Read the SNP and calculate###########################
+INFO:root:Loading bim file Impure_Dominant_OnePair_BaselineAlpha10_InteractionAlpha16_Chr1_CEU_SNP1000_IND1000_MAF005_02.bim
+INFO:root:Loading fam file Impure_Dominant_OnePair_BaselineAlpha10_InteractionAlpha16_Chr1_CEU_SNP1000_IND1000_MAF005_02.fam
+INFO:root:There are 1000 individuals, 1000 SNPs.
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 90.83it/s]100%|██████████| 10/10 [00:00<00:00, 90.34it/s]
+INFO:root:Running time: Clock time, 0.11726 sec; CPU time, 1.57587 sec.
+INFO:root:#####################################Output#####################################
+INFO:root:The prefix of output file is ./dom_genom_rel_matrix_dd_impure_dom_onepair_interalpha16
+INFO:root:#####Prepare#####
+INFO:root:Initial variances: 1.0 1.0 1.0 1.0 1.0 1.0
+INFO:root:#####Start the iteration#####
+
+
+INFO:root:###Round: 1###
+INFO:root:EM weight value: 0.0
+INFO:root:-2logL for last iteration: -473459.58768375195
+INFO:root:Norm of gradient vector for last iteration: 48490.50887971458
+INFO:root:Norm of update vector: 0.49933280979077915
+INFO:root:Updated variances: 1.9902065831048432 1.9966413899711588 1.9496440340108165 1.9970961250421624 2.1155562054570964 1.9178633406895642
+INFO:root:###Round: 2###
+INFO:root:EM weight value: 0.0
+INFO:root:-2logL for last iteration: -240359.19437591053
+INFO:root:Norm of gradient vector for last iteration: 12122.559010235456
+INFO:root:Norm of update vector: 0.5010041453958244
+INFO:root:Updated variances: 3.9415229316856824 3.9798807745106766 3.699606959326047 3.9825430710500314 4.688947290052738 3.510362560348767
+INFO:root:###Round: 3###
+INFO:root:EM weight value: 0.0
+INFO:root:-2logL for last iteration: -124494.71429797701
+INFO:root:Norm of gradient vector for last iteration: 3030.5715239491506
+INFO:root:Norm of update vector: 0.5106549972583801
+INFO:root:Updated variances: 7.729728500534208 7.906412782403117 6.614287507511108 7.918232672971726 11.174504488249795 5.74442418909166
+INFO:root:###Round: 4###
+INFO:root:EM weight value: 0.0
+INFO:root:-2logL for last iteration: -67241.51005340791
+INFO:root:Norm of gradient vector for last iteration: 757.5746207572643
+INFO:root:Norm of update vector: 0.5459908026190253
+INFO:root:Updated variances: 14.86375973546292 15.60150071076901 10.196978540301643 15.647196407146339 29.263759233315568 6.580094759338863
+INFO:root:###Round: 5###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -39280.75234426359
+INFO:root:Norm of gradient vector for last iteration: 189.32535680384552
+INFO:root:Norm of update vector: 0.5462953880171155
+INFO:root:Updated variances: 27.239919433695547 30.214908703897542 13.70017023340364 25.94975993575281 72.08898590917033 8.128220731848273
+INFO:root:###Round: 6###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -25920.473492623125
+INFO:root:Norm of gradient vector for last iteration: 47.050962322348546
+INFO:root:Norm of update vector: 0.5443728925512021
+INFO:root:Updated variances: 45.55955547017317 56.2629991320241 14.920220529981961 34.44377953690355 168.757082837893 8.7333674640346
+INFO:root:###Round: 7###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -19870.017023823544
+INFO:root:Norm of gradient vector for last iteration: 11.671848571464361
+INFO:root:Norm of update vector: 0.5006131679674058
+INFO:root:Updated variances: 64.35003318893575 97.3413725108716 14.567760078368 37.14119375620953 348.0270670150936 8.775578556575319
+INFO:root:###Round: 8###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -17381.542949294068
+INFO:root:Norm of gradient vector for last iteration: 2.854762898393998
+INFO:root:Norm of update vector: 0.4189248454420452
+INFO:root:Updated variances: 70.57747235964504 149.47658009390435 14.006411847177414 36.66377581783408 606.7263203581508 8.678528863347823
+INFO:root:###Round: 9###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16542.176219022855
+INFO:root:Norm of gradient vector for last iteration: 0.6547505953842773
+INFO:root:Norm of update vector: 0.28888749195519425
+INFO:root:Updated variances: 62.82209105868347 197.10668156914397 13.537054124430332 35.42420405075984 857.0687214261432 8.566806268762392
+INFO:root:###Round: 10###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16354.475485969671
+INFO:root:Norm of gradient vector for last iteration: 0.11274128157471056
+INFO:root:Norm of update vector: 0.12027176655803656
+INFO:root:Updated variances: 54.3662371729543 228.57513182601986 13.144868954647347 34.12205746162247 973.0487054102679 8.460017118733104
+INFO:root:###Round: 11###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16335.818587779186
+INFO:root:Norm of gradient vector for last iteration: 0.02774174146812119
+INFO:root:Norm of update vector: 0.022655371042327836
+INFO:root:Updated variances: 48.24015598257759 246.57383918087413 12.792774283407285 32.898917626122824 986.0489931785878 8.358009839453885
+INFO:root:###Round: 12###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16334.584870798708
+INFO:root:Norm of gradient vector for last iteration: 0.034198860415641776
+INFO:root:Norm of update vector: 0.011060656926747677
+INFO:root:Updated variances: 43.61472108099042 256.67992330684547 12.462278018376923 31.76617576783273 984.5956920194909 8.259007646299965
+INFO:root:###Round: 13###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16334.013881220342
+INFO:root:Norm of gradient vector for last iteration: 0.03373637186102622
+INFO:root:Norm of update vector: 0.006648279813460768
+INFO:root:Updated variances: 39.98214053016816 262.29877640595925 12.149172185114791 30.714108471714045 984.8173186234244 8.162526668775012
+INFO:root:###Round: 14###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16333.621461051924
+INFO:root:Norm of gradient vector for last iteration: 0.033123411008988246
+INFO:root:Norm of update vector: 0.004519966279305798
+INFO:root:Updated variances: 37.045626356551374 265.4490525502613 11.851827827452277 29.73292070272011 986.140275772158 8.068382061307151
+INFO:root:###Round: 15###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16333.320096348176
+INFO:root:Norm of gradient vector for last iteration: 0.03261734962853058
+INFO:root:Norm of update vector: 0.0035748934036662797
+INFO:root:Updated variances: 34.61477160418274 267.3017061676292 11.568958115366549 28.814803152096292 987.9127219404664 7.9764434519947915
+INFO:root:###Round: 16###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16333.074183195662
+INFO:root:Norm of gradient vector for last iteration: 0.03219625738767287
+INFO:root:Norm of update vector: 0.0030811784953360794
+INFO:root:Updated variances: 32.56271055850795 268.477901590787 11.299469966783015 27.953389728422792 989.806813562439 7.886611322901926
+INFO:root:###Round: 17###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.866521430002
+INFO:root:Norm of gradient vector for last iteration: 0.031841345925319474
+INFO:root:Norm of update vector: 0.0027473025342252193
+INFO:root:Updated variances: 30.802079821177507 269.2932664236268 11.042406582209843 27.14332429150813 991.6747894670459 7.798803657368882
+INFO:root:###Round: 18###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.687201623157
+INFO:root:Norm of gradient vector for last iteration: 0.03153849929508022
+INFO:root:Norm of update vector: 0.002483685931508573
+INFO:root:Updated variances: 29.270882067112744 269.90656822975615 10.79691366923513 26.37999528161445 993.457280956556 7.712948260438215
+INFO:root:###Round: 19###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.529793252195
+INFO:root:Norm of gradient vector for last iteration: 0.031277048338713545
+INFO:root:Norm of update vector: 0.0022631459727753115
+INFO:root:Updated variances: 27.923916956456868 270.39866101010523 10.56221938447414 25.659372255142728 995.135655863207 7.628978859623049
+INFO:root:###Round: 20###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.389822432084
+INFO:root:Norm of gradient vector for last iteration: 0.0310489159050843
+INFO:root:Norm of update vector: 0.0020749345393073102
+INFO:root:Updated variances: 26.72743039712442 270.81202558851777 10.337621526973313 24.97789831352574 996.7089423479317 7.546833220298343
+INFO:root:###Round: 21###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.264039327903
+INFO:root:Norm of gradient vector for last iteration: 0.030847948290074714
+INFO:root:Norm of update vector: 0.0019127516591647623
+INFO:root:Updated variances: 25.655676315805625 271.170100341071 10.122478505919695 24.33241353489698 998.1831360866765 7.466452235882035
+INFO:root:###Round: 22###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.150010113319
+INFO:root:Norm of gradient vector for last iteration: 0.03066940803782295
+INFO:root:Norm of update vector: 0.0017719216930297155
+INFO:root:Updated variances: 24.688646630066916 271.4866709823836 9.916202378142682 23.720096753485667 999.5664374147173 7.38777946817828
+INFO:root:###Round: 23###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16332.045867766961
+INFO:root:Norm of gradient vector for last iteration: 0.030509602248867538
+INFO:root:Norm of update vector: 0.0016487198865062426
+INFO:root:Updated variances: 23.810534147184597 271.7704553536815 9.718253136462412 23.13841918070128 1000.8672381705645 7.310760890505195
+INFO:root:###Round: 24###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.950151015293
+INFO:root:Norm of gradient vector for last iteration: 0.03036561460011949
+INFO:root:Norm of update vector: 0.0015401484650058035
+INFO:root:Updated variances: 23.00866721619075 272.02737662754515 9.528133844839795 22.58510633372906 1002.0933484709176 7.235344721162919
+INFO:root:###Round: 25###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.861696186508
+INFO:root:Norm of gradient vector for last iteration: 0.03023511266854208
+INFO:root:Norm of update vector: 0.0014437983883225007
+INFO:root:Updated variances: 22.27275543844429 272.2617201210525 9.345386406892048 22.058106188039265 1003.2517637948722 7.161481297421123
+INFO:root:###Round: 26###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.779562452108
+INFO:root:Norm of gradient vector for last iteration: 0.030116208653625284
+INFO:root:Norm of update vector: 0.0013577341487997713
+INFO:root:Updated variances: 21.59434514689881 272.4767446624339 9.169587842683708 21.555562209873553 1004.3486548623356 7.089122968465435
+INFO:root:###Round: 27###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.702978895222
+INFO:root:Norm of gradient vector for last iteration: 0.030007357710272006
+INFO:root:Norm of update vector: 0.0012803959461703085
+INFO:root:Updated variances: 20.966419325482622 272.67502209597666 9.000346991229124 21.075790329319858 1005.3894396901253 7.018223998219768
+INFO:root:###Round: 28###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.631306248913
+INFO:root:Norm of gradient vector for last iteration: 0.029907282847042443
+INFO:root:Norm of update vector: 0.0012105196402985516
+INFO:root:Updated variances: 20.383098912668796 272.8586372159321 8.837301578153303 20.617259155742797 1006.3788777887378 6.948740474345073
+INFO:root:###Round: 29###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.564008727171
+INFO:root:Norm of gradient vector for last iteration: 0.02981491874238398
+INFO:root:Norm of update vector: 0.0011470732687772077
+INFO:root:Updated variances: 19.83941653287377 273.02931311232976 8.680115600630426 20.17857289415334 1007.3211624924161 6.880630221967587
+INFO:root:###Round: 30###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.500632943837
+INFO:root:Norm of gradient vector for last iteration: 0.02972936918110335
+INFO:root:Norm of update vector: 0.0010892076331872195
+INFO:root:Updated variances: 19.33114281205479 273.1884946131314 8.528476989964147 19.75845653094284 1008.2200031063498 6.813852721587748
+INFO:root:###Round: 31###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.440791900268
+INFO:root:Norm of gradient vector for last iteration: 0.029649874416890966
+INFO:root:Norm of update vector: 0.0010362181682121471
+INFO:root:Updated variances: 18.85465143982297 273.33740680979935 8.382095518156552 19.355742938742576 1009.0786950961576 6.748369030949165
+INFO:root:###Round: 32###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.38415265824
+INFO:root:Norm of gradient vector for last iteration: 0.029575785859150775
+INFO:root:Norm of update vector: 0.000987515571100454
+INFO:root:Updated variances: 18.40681317193162 273.477097875688 8.240700919506436 18.96936161274218 1009.9001790517732 6.684141710745874
+INFO:root:###Round: 33###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.33042673257
+INFO:root:Norm of gradient vector for last iteration: 0.029506546230581163
+INFO:root:Norm of update vector: 0.0009426031201167643
+INFO:root:Updated variances: 17.984911719888284 273.6084714271533 8.104041202137742 18.598328800163138 1010.6870899410131 6.621134754059858
+INFO:root:###Round: 34###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.279362518846
+INFO:root:Norm of gradient vector for last iteration: 0.029441673858841434
+INFO:root:Norm of update vector: 0.0009010590653066359
+INFO:root:Updated variances: 17.586576384383655 273.7323115881903 7.971881127615652 18.241738824179013 1011.4417982548911 6.559313519408341
+INFO:root:###Round: 35###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.230739262788
+INFO:root:Norm of gradient vector for last iteration: 0.029380750126736042
+INFO:root:Norm of update vector: 0.0008625228627995707
+INFO:root:Updated variances: 17.209727634100922 273.8493027676802 7.844000839591777 17.898756435698736 1012.1664444828971 6.4986446672640525
+INFO:root:###Round: 36###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.18436221136
+INFO:root:Norm of gradient vector for last iteration: 0.02932340936040097
+INFO:root:Norm of update vector: 0.0008266843307714611
+INFO:root:Updated variances: 16.852532791556992 273.9600454909377 7.720194624815342 17.568610052711314 1012.8629681281063 6.439096099899102
+INFO:root:###Round: 37###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.140058679495
+INFO:root:Norm of gradient vector for last iteration: 0.029269330617527803
+INFO:root:Norm of update vector: 0.0007932750384275503
+INFO:root:Updated variances: 16.513369681836412 274.06506921978433 7.600269791915979 17.250585768531877 1013.5331322507586 6.380636904395633
+INFO:root:###Round: 38###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.097674833418
+INFO:root:Norm of gradient vector for last iteration: 0.02921823096957236
+INFO:root:Norm of update vector: 0.0007620614134625995
+INFO:root:Updated variances: 16.19079660804012 274.1648428338927 7.484045655153983 16.94402202820603 1014.1785443384745 6.323237298663703
+INFO:root:###Round: 39###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.057073039321
+INFO:root:Norm of gradient vector for last iteration: 0.029169859968545483
+INFO:root:Norm of update vector: 0.0007328391819375693
+INFO:root:Updated variances: 15.883527393087865 274.2597832707713 7.371352611885719 16.64830488723333 1014.8006741450373 6.2668685803076265
+INFO:root:###Round: 40###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16331.01812966315
+INFO:root:Norm of gradient vector for last iteration: 0.02912399506032555
+INFO:root:Norm of update vector: 0.0007054288493886775
+INFO:root:Updated variances: 15.590410508447764 274.3502626996444 7.2620313038390485 16.362863779220998 1015.4008690145855 6.211503078185463
+INFO:root:###Round: 41###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.980733232109
+INFO:root:Norm of gradient vector for last iteration: 0.029080437759875174
+INFO:root:Norm of update vector: 0.0006796720018654273
+INFO:root:Updated variances: 15.310411522408321 274.43661451696653 7.15593185346466 16.08716772952082 1015.980367108591 6.157114106511443
+INFO:root:###Round: 42###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.944782889073
+INFO:root:Norm of gradient vector for last iteration: 0.02903901044384415
+INFO:root:Norm of update vector: 0.0006554282576924503
+INFO:root:Updated variances: 15.042598262003649 274.5191383870289 7.052913167648838 15.820721960692016 1016.5403088744216 6.103675921357307
+INFO:root:###Round: 43###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.910187085337
+INFO:root:Norm of gradient vector for last iteration: 0.02899955364675649
+INFO:root:Norm of update vector: 0.0006325727393496041
+INFO:root:Updated variances: 14.786128206746497 274.59810450309584 6.95284230196215 15.56306484305805 1017.0817470317622 6.05116367941536
+INFO:root:###Round: 44###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.876862469573
+INFO:root:Norm of gradient vector for last iteration: 0.028961923770360592
+INFO:root:Norm of update vector: 0.0006109939641170734
+INFO:root:Updated variances: 14.54023772836202 274.673757208052 6.855593879394994 15.313765149918677 1017.6056553035568 5.9995533988931165
+INFO:root:###Round: 45###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.844732937943
+INFO:root:Norm of gradient vector for last iteration: 0.028925991133933758
+INFO:root:Norm of update vector: 0.0005905920740684583
+INFO:root:Updated variances: 14.304232865630203 274.74631808556376 6.761049558210137 15.072419582329724 1018.1129360783265 5.948821922416527
+INFO:root:###Round: 46###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.8137288184
+INFO:root:Norm of gradient vector for last iteration: 0.028891638307444484
+INFO:root:Norm of update vector: 0.0005712773428564966
+INFO:root:Updated variances: 14.077481382296178 274.8159886110532 6.669097544137426 14.838650532926774 1018.6044271587875 5.898946881825835
+INFO:root:###Round: 47###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.783786166901
+INFO:root:Norm of gradient vector for last iteration: 0.02885875868054709
+INFO:root:Norm of update vector: 0.0005529689096451091
+INFO:root:Updated variances: 13.85940590254935 274.882952434783 6.5796321426582285 14.612104062172772 1019.0809077258803 5.849906664754907
+INFO:root:###Round: 48###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.754846158103
+INFO:root:Norm of gradient vector for last iteration: 0.02882725522918935
+INFO:root:Norm of update vector: 0.000535593700467897
+INFO:root:Updated variances: 13.649477955611891 274.9473773559618 6.492553347586282 14.392448063758106 1019.5431036262805 5.801680382891445
+INFO:root:###Round: 49###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.726854554583
+INFO:root:Norm of gradient vector for last iteration: 0.028797039448505823
+INFO:root:Norm of update vector: 0.0005190855051520717
+INFO:root:Updated variances: 13.447212790631355 275.0094170361525 6.407766462555959 14.179370598761865 1019.9916920743614 5.754247841821732
+INFO:root:###Round: 50###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.699761243837
+INFO:root:Norm of gradient vector for last iteration: 0.028768030426307985
+INFO:root:Norm of update vector: 0.0005033841839540747
+INFO:root:Updated variances: 13.25216484694873 275.0692124917172 6.325181752385589 13.972578380666627 1020.4273058454303 5.707589512369489
+INFO:root:###Round: 51###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.673519832146
+INFO:root:Norm of gradient vector for last iteration: 0.02874015403587464
+INFO:root:Norm of update vector: 0.0004884349829442552
+INFO:root:Updated variances: 13.063923784141426 275.12689339823174 6.244714121598542 13.77179539546644 1020.8505370254711 5.661686503344009
+INFO:root:###Round: 52###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.648087287678
+INFO:root:Norm of gradient vector for last iteration: 0.028713342230398342
+INFO:root:Norm of update vector: 0.0004741879409813018
+INFO:root:Updated variances: 12.88211099196749 275.18257923424335 6.166282817663506 13.57676164296827 1021.2619403729955 5.616520535617992
+INFO:root:###Round: 53###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.623423625093
+INFO:root:Norm of gradient vector for last iteration: 0.028687532424408607
+INFO:root:Norm of update vector: 0.0004605973740953221
+INFO:root:Updated variances: 12.706376513196435 275.2363802872403 6.089811156762506 13.387231987003734 1021.6620363404913 5.572073917460459
+INFO:root:###Round: 54###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.599491626746
+INFO:root:Norm of gradient vector for last iteration: 0.0286626669497931
+INFO:root:Norm of update vector: 0.00044762142570573915
+INFO:root:Updated variances: 12.536396322875188 275.2883985410386 6.01522627011444 13.202975103675076 1022.0513137963483 5.528329521054726
+INFO:root:###Round: 55###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.576256595046
+INFO:root:Norm of gradient vector for last iteration: 0.028638692576117807
+INFO:root:Norm of update vector: 0.00043522167290041346
+INFO:root:Updated variances: 12.371869916293733 275.3387284607534 5.942458869076874 13.023772517987242 1022.4302324823777 5.485270760135793
+INFO:root:###Round: 56###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.553686131825
+INFO:root:Norm of gradient vector for last iteration: 0.02861556008646114
+INFO:root:Norm of update vector: 0.0004233627807751941
+INFO:root:Updated variances: 12.212518165137261 275.38745768903453 5.871443027422355 12.849417720291418 1022.7992252373743 5.442881568685537
+INFO:root:###Round: 57###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.531749941527
+INFO:root:Norm of gradient vector for last iteration: 0.028593223901401985
+INFO:root:Norm of update vector: 0.0004120121980081161
+INFO:root:Updated variances: 12.058081407320678 275.43466766517855 5.80211597934022 12.6797153549061 1023.1587000130486 5.4011463806278694
+INFO:root:###Round: 58###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.510419655036
+INFO:root:Norm of gradient vector for last iteration: 0.028571641744826178
+INFO:root:Norm of update vector: 0.00040113988804228333
+INFO:root:Updated variances: 11.908317741020351 275.480434177017 5.734417931852997 12.51448047410739 1023.5090417053106 5.360050110469619
+INFO:root:###Round: 59###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.489668671418
+INFO:root:Norm of gradient vector for last iteration: 0.02855077434623668
+INFO:root:Norm of update vector: 0.0003907180910115781
+INFO:root:Updated variances: 11.763001497625707 275.5248278540235 5.668291890460016 12.353537851406724 1023.8506138208768 5.319578134836138
+INFO:root:###Round: 60###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.469472015853
+INFO:root:Norm of gradient vector for last iteration: 0.02853058517492744
+INFO:root:Norm of update vector: 0.00038072111240847916
+INFO:root:Updated variances: 11.62192187187361 275.567914608909 5.6036834969313585 12.196721348674147 1024.1837599967548 5.279716274853775
+INFO:root:###Round: 61###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.449806211314
+INFO:root:Norm of gradient vector for last iteration: 0.02851104020213771
+INFO:root:Norm of update vector: 0.00037112513495765853
+INFO:root:Updated variances: 11.484881690417334 275.6097560339339 5.540540878274436 12.043873332230373 1024.5088053879153 5.240450779334236
+INFO:root:###Round: 62###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.43064916287
+INFO:root:Norm of gradient vector for last iteration: 0.0284921076877328
+INFO:root:Norm of update vector: 0.00036190805082876484
+INFO:root:Updated variances: 11.35169630261377 275.650409757325 5.478814505984416 11.894844133530576 1024.8260579367213 5.201768308718518
+INFO:root:###Round: 63###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.411980052708
+INFO:root:Norm of gradient vector for last iteration: 0.02847375798855576
+INFO:root:Norm of update vector: 0.0003530493115735739
+INFO:root:Updated variances: 11.222192579463826 275.6899297644523 5.418457064769681 11.749491550505535 1025.1358095359763 5.16365591974066
+INFO:root:###Round: 64###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.39377924522
+INFO:root:Norm of gradient vector for last iteration: 0.02845596338585699
+INFO:root:Norm of update vector: 0.00034452979368162064
+INFO:root:Updated variances: 11.096208008474727 275.72836668780826 5.359423330015478 11.607680386018606 1025.4383370961534 5.1261010507739
+INFO:root:###Round: 65###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.37602820038
+INFO:root:Norm of gradient vector for last iteration: 0.02843869792963848
+INFO:root:Norm of update vector: 0.00033633167784458427
+INFO:root:Updated variances: 10.973589873780387 275.76576806931297 5.301670053313706 11.46928202024614 1025.7339035261143 5.089091507824012
+INFO:root:###Round: 66###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.358709395201
+INFO:root:Norm of gradient vector for last iteration: 0.028421937297994172
+INFO:root:Norm of update vector: 0.0003284383403299305
+INFO:root:Updated variances: 10.85419451219988 275.8021785979972 5.245155855445313 11.334174014099682 1026.0227586356064 5.052615451136667
+INFO:root:###Round: 67###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.341806251945
+INFO:root:Norm of gradient vector for last iteration: 0.02840565866976958
+INFO:root:Norm of update vector: 0.0003208342550531824
+INFO:root:Updated variances: 10.737886637069224 275.83764032576164 5.189841126254538 11.202239741085469 1026.3051399668964 5.016661382387601
+INFO:root:###Round: 68###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.325303072525
+INFO:root:Norm of gradient vector for last iteration: 0.028389840609085927
+INFO:root:Norm of update vector: 0.0003135049051465566
+INFO:root:Updated variances: 10.624538722677261 275.8721928635501 5.13568793090203 11.073368045244075 1026.5812735621232 4.98121813242614
+INFO:root:###Round: 69###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.309184978547
+INFO:root:Norm of gradient vector for last iteration: 0.028374462960467247
+INFO:root:Norm of update vector: 0.00030643670292779273
+INFO:root:Updated variances: 10.514030442996827 275.90587356000765 5.082659922027071 10.947452923034273 1026.8513746722015 4.946274849544361
+INFO:root:###Round: 70###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.293437856311
+INFO:root:Norm of gradient vector for last iteration: 0.02835950675341202
+INFO:root:Norm of update vector: 0.0002996169173991254
+INFO:root:Updated variances: 10.406248159147497 275.9387176644374 5.030722257388299 10.824393227223286 1027.1156484125656 4.911820988245696
+INFO:root:###Round: 71###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.27804830637
+INFO:root:Norm of gradient vector for last iteration: 0.02834495411546337
+INFO:root:Norm of update vector: 0.00029303360841009124
+INFO:root:Updated variances: 10.30108445067341 275.97075847566083 4.979841522587848 10.704092391023133 1027.3742903704303 4.8778462984883175
+INFO:root:###Round: 72###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.263003597065
+INFO:root:Norm of gradient vector for last iteration: 0.02833078819287555
+INFO:root:Norm of update vector: 0.0002866755668008116
+INFO:root:Updated variances: 10.198437686282658 276.00202747819884 4.929985658516114 10.586458170872342 1027.6274871677979 4.8443408153799945
+INFO:root:###Round: 73###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.248291621903
+INFO:root:Norm of gradient vector for last iteration: 0.028316993078119704
+INFO:root:Norm of update vector: 0.0002805322599019126
+INFO:root:Updated variances: 10.098211630186015 276.0325544670291 4.881123893183631 10.471402406405545 1027.875416984022 4.81129484930241
+INFO:root:###Round: 74###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.233900860174
+INFO:root:Norm of gradient vector for last iteration: 0.028303553743544277
+INFO:root:Norm of update vector: 0.0002745937818263627
+INFO:root:Updated variances: 10.000315080602011 276.06236766204114 4.833226677633268 10.358840796282571 1028.1182500413452 4.77869897644417
+INFO:root:###Round: 75###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.219820340573
+INFO:root:Norm of gradient vector for last iteration: 0.028290455980593657
+INFO:root:Norm of update vector: 0.0002688508080704605
+INFO:root:Updated variances: 9.90466153737153 276.0914938131574 4.786265625650248 10.248692688664983 1028.3561490565016 4.746544029722853
+INFO:root:###Round: 76###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.206039607607
+INFO:root:Norm of gradient vector for last iteration: 0.02827768634402887
+INFO:root:Norm of update vector: 0.00026329455399538116
+INFO:root:Updated variances: 9.81116889595512 276.11995829703795 4.740213457009627 10.140880885232862 1028.5892696611738 4.714821090077537
+INFO:root:###Round: 77###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.192548690635
+INFO:root:Norm of gradient vector for last iteration: 0.02826523210068478
+INFO:root:Norm of update vector: 0.0002579167368266353
+INFO:root:Updated variances: 9.719759165376477 276.14778520611554 4.695043944021125 10.035331457729571 1028.8177607938653 4.683521478114246
+INFO:root:###Round: 78###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.179338074962
+INFO:root:Norm of gradient vector for last iteration: 0.02825308118234826
+INFO:root:Norm of update vector: 0.00025270954075866755
+INFO:root:Updated variances: 9.630358207931438 276.1749974307111 4.650731861149652 9.931973576107918 1029.0417650654097 4.652636746087691
+INFO:root:###Round: 79###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.166398675261
+INFO:root:Norm of gradient vector for last iteration: 0.02824122214233724
+INFO:root:Norm of update vector: 0.0002476655849884155
+INFO:root:Updated variances: 9.542895498707455 276.2016167348119 4.607252937506745 9.83073934742878 1029.2614191002938 4.622158670203599
+INFO:root:###Round: 80###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.153721810617
+INFO:root:Norm of gradient vector for last iteration: 0.028229644115495264
+INFO:root:Norm of update vector: 0.00024277789425956685
+INFO:root:Updated variances: 9.457303903158323 276.2276638261161 4.5645838120236055 9.731563664733766 1029.4768538555898 4.5920792432267215
+INFO:root:###Round: 81###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.141299181736
+INFO:root:Norm of gradient vector for last iteration: 0.02821833678123775
+INFO:root:Norm of update vector: 0.0002380398718126983
+INFO:root:Updated variances: 9.373519471155724 276.2531584208314 4.522701991130566 9.634384065177178 1029.6881949192955 4.562390667380436
+INFO:root:###Round: 82###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.129122849277
+INFO:root:Norm of gradient vector for last iteration: 0.028207290329418447
+INFO:root:Norm of update vector: 0.00023344527442767168
+INFO:root:Updated variances: 9.291481246096152 276.2781193036898 4.481585808780781 9.539140596760804 1029.895562789605 4.533085347524574
+INFO:root:###Round: 83###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.117185213998
+INFO:root:Norm of gradient vector for last iteration: 0.02819649542875104
+INFO:root:Norm of update vector: 0.0002289881894187341
+INFO:root:Updated variances: 9.211131087781288 276.30256438359027 4.441214388667841 9.445775693067645 1030.0990731365605 4.504155884598806
+INFO:root:###Round: 84###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.105478998146
+INFO:root:Norm of gradient vector for last iteration: 0.028185943197566284
+INFO:root:Norm of update vector: 0.00022466301338672153
+INFO:root:Updated variances: 9.132413507914075 276.3265107452381 4.4015676084979285 9.354234055438868 1030.2988370473868 4.475595069319573
+INFO:root:###Round: 85###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.093997228025
+INFO:root:Norm of gradient vector for last iteration: 0.028175625176697125
+INFO:root:Norm of update vector: 0.00022046443258546544
+INFO:root:Updated variances: 9.055275517163583 276.34997469712226 4.362626066187192 9.264462542081981 1030.4949612567107 4.447395876119193
+INFO:root:###Round: 86###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.082733217836
+INFO:root:Norm of gradient vector for last iteration: 0.028165533304329027
+INFO:root:Norm of update vector: 0.0002163874047542846
+INFO:root:Updated variances: 8.979666482850483 276.37297181612433 4.324371047864213 9.176410063638167 1030.6875483627618 4.419551457316298
+INFO:root:###Round: 87###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.071680554493
+INFO:root:Norm of gradient vector for last iteration: 0.028155659892643962
+INFO:root:Norm of update vector: 0.00021242714227898875
+INFO:root:Updated variances: 8.905537996393596 276.39551698904086 4.286784497565961 9.09002748477319 1030.8766970305398 4.392055137507369
+INFO:root:###Round: 88###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.06083308342
+INFO:root:Norm of gradient vector for last iteration: 0.028145997606084133
+INFO:root:Norm of update vector: 0.00020857909660615404
+INFO:root:Updated variances: 8.832843749737059 276.417624451274 4.249848988523469 9.005267531389595 1031.0625021829019 4.3649004081696265
+INFO:root:###Round: 89###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.05018489527
+INFO:root:Norm of gradient vector for last iteration: 0.028136539441156065
+INFO:root:Norm of update vector: 0.00020483894376131527
+INFO:root:Updated variances: 8.761539420048775 276.43930782289414 4.213547695940638 8.922084703088366 1031.245055180395 4.338080922465998
+INFO:root:###Round: 90###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.039730313376
+INFO:root:Norm of gradient vector for last iteration: 0.028127278707603023
+INFO:root:Norm of update vector: 0.0002012025709001962
+INFO:root:Updated variances: 8.691582562044609 276.46058014231 4.177864371176253 8.840435190536118 1031.4244439906095 4.311590490243399
+INFO:root:###Round: 91###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.029463882212
+INFO:root:Norm of gradient vector for last iteration: 0.028118209010858628
+INFO:root:Norm of update vector: 0.00019766606381156745
+INFO:root:Updated variances: 8.622932507350171 276.48145389771315 4.142783317245463 8.76027679741949 1031.600753347778 4.285423073215948
+INFO:root:###Round: 92###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.019380356296
+INFO:root:Norm of gradient vector for last iteration: 0.028109324235672663
+INFO:root:Norm of update vector: 0.00019422569530110927
+INFO:root:Updated variances: 8.555550270363707 276.50194105647427 4.108289365562592 8.681568866691743 1031.774064903296 4.25957278032519
+INFO:root:###Round: 93###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16330.00947469
+INFO:root:Norm of gradient vector for last iteration: 0.02810061853083395
+INFO:root:Norm of update vector: 0.00019087791434678068
+INFO:root:Updated variances: 8.489398460130253 276.52205309264485 4.074367853852433 8.604272210838225 1031.9444573677335 4.2340338632697465
+INFO:root:###Round: 94###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.99974202771
+INFO:root:Norm of gradient vector for last iteration: 0.02809208629488578
+INFO:root:Norm of update vector: 0.0001876193360145142
+INFO:root:Updated variances: 8.424441197779197 276.54180101271044 4.041004605162034 8.528349045906975 1032.1120066449305 4.208800712197226
+INFO:root:###Round: 95###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.99017769485
+INFO:root:Norm of gradient vector for last iteration: 0.028083722162755516
+INFO:root:Norm of update vector: 0.00018444673206240107
+INFO:root:Updated variances: 8.36064403911547 276.56119537971824 4.008185907909442 8.453762929068994 1032.2767859587082 4.183867851551528
+INFO:root:###Round: 96###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.980777189103
+INFO:root:Norm of gradient vector for last iteration: 0.028075520993272096
+INFO:root:Norm of update vector: 0.00018135702212465103
+INFO:root:Updated variances: 8.297973901989012 276.58024633591117 3.975898496910056 8.380478699489416 1032.4388659726153 4.159229936069054
+INFO:root:###Round: 97###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.971536172614
+INFO:root:Norm of gradient vector for last iteration: 0.02806747785743844
+INFO:root:Norm of update vector: 0.0001783472655356391
+INFO:root:Updated variances: 8.236398998098233 276.59896362396074 3.9441295353250947 8.308462422306157 1032.5983149032322 4.134881746917592
+INFO:root:###Round: 98###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.962450464092
+INFO:root:Norm of gradient vector for last iteration: 0.02805958802746315
+INFO:root:Norm of update vector: 0.00017541465364084976
+INFO:root:Updated variances: 8.175888768911577 276.6173566069114 3.912866597480244 8.237681335526837 1032.755198627383 4.110818187971989
+INFO:root:###Round: 99###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.953516031677
+INFO:root:Norm of gradient vector for last iteration: 0.028051846966458068
+INFO:root:Norm of update vector: 0.00017255650263080005
+INFO:root:Updated variances: 8.11641382541688 276.635434286925 3.882097652505888 8.16810379966782 1032.9095807836736 4.08703428222097
+INFO:root:###Round: 100###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.944728986207
+INFO:root:Norm of gradient vector for last iteration: 0.02804425031878041
+INFO:root:Norm of update vector: 0.00016977024681548138
+INFO:root:Updated variances: 8.057945891431578 276.65320532290565 3.851811048753385 8.09969924997132 1033.0615228686886 4.063525168299731
+INFO:root:###Round: 101###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.936085574827
+INFO:root:Norm of gradient vector for last iteration: 0.02803679390094403
+INFO:root:Norm of update vector: 0.00016705343234120452
+INFO:root:Updated variances: 8.000457750228076 276.67067804708694 3.8219954989447436 8.0324381510476 1033.211084328195 4.040286097143205
+INFO:root:###Round: 102###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.927582174816
+INFO:root:Norm of gradient vector for last iteration: 0.028029473693095573
+INFO:root:Norm of update vector: 0.0001644037112821219
+INFO:root:Updated variances: 7.943923194247872 276.68786048065084 3.7926400660156805 7.966291953799672 1033.3583226436383 4.017312428755103
+INFO:root:###Round: 103###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.919215287839
+INFO:root:Norm of gradient vector for last iteration: 0.02802228583098371
+INFO:root:Norm of update vector: 0.00016181883610045882
+INFO:root:Updated variances: 7.888316977695716 276.7047603484518 3.7637341496145567 7.901233054497338 1033.503293414214 3.994599629088093
+INFO:root:###Round: 104###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.910981534651
+INFO:root:Norm of gradient vector for last iteration: 0.028015226598393745
+INFO:root:Norm of update vector: 0.00015929665447827874
+INFO:root:Updated variances: 7.8336147718211455 276.7213850928909 3.735267473221954 7.8372347558763 1033.6460504348265 3.9721432670306576
+INFO:root:###Round: 105###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.902877649769
+INFO:root:Norm of gradient vector for last iteration: 0.02800829242005131
+INFO:root:Norm of update vector: 0.0001568351044063415
+INFO:root:Updated variances: 7.77979312270946 276.73774188700855 3.707230071857832 7.774271230146195 1033.786645770101 3.9499390114964004
+INFO:root:###Round: 106###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.894900476836
+INFO:root:Norm of gradient vector for last iteration: 0.02800147985490304
+INFO:root:Norm of update vector: 0.00015443220961948906
+INFO:root:Updated variances: 7.726829411417625 276.75383764684784 3.6796122803451947 7.712317483798947 1033.9251298247477 3.92798262861175
+INFO:root:###Round: 107###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.887046963755
+INFO:root:Norm of gradient vector for last iteration: 0.027994785589799624
+INFO:root:Norm of update vector: 0.00015208607527234777
+INFO:root:Updated variances: 7.674701816302923 276.7696790431305 3.6524047221010556 7.651349324115912 1034.0615514104531 3.906269978998198
+INFO:root:###Round: 108###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.879314158441
+INFO:root:Norm of gradient vector for last iteration: 0.027988206433523292
+INFO:root:Norm of update vector: 0.00014979488389915645
+INFO:root:Updated variances: 7.623389277403418 276.7852725122889 3.625598298427242 7.591343327278704 1034.1959578095295 3.884797015145373
+INFO:root:###Round: 109###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.871699204657
+INFO:root:Norm of gradient vector for last iteration: 0.027981739311169648
+INFO:root:Norm of update vector: 0.00014755689156320176
+INFO:root:Updated variances: 7.572871462739668 276.8006242669069 3.599184178275195 7.5322768079947355 1034.3283948354544 3.863559778871425
+INFO:root:###Round: 110###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.864199338073
+INFO:root:Norm of gradient vector for last iteration: 0.027975381258811858
+INFO:root:Norm of update vector: 0.00014537042429211438
+INFO:root:Updated variances: 7.523128736416548 276.8157403055905 3.573153788460439 7.474127790554001 1034.4589068905536 3.842554398867348
+INFO:root:###Round: 111###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.856811882373
+INFO:root:Norm of gradient vector for last iteration: 0.027969129418483642
+INFO:root:Norm of update vector: 0.00014323387465745908
+INFO:root:Updated variances: 7.47414212841286 276.83062642231783 3.5474988043038223 7.416874981238959 1034.5875370209103 3.8217770883220146
+INFO:root:###Round: 112###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.849534245983
+INFO:root:Norm of gradient vector for last iteration: 0.02796298103341823
+INFO:root:Norm of update vector: 0.00014114569859369588
+INFO:root:Updated variances: 7.425893305954304 276.84528821529494 3.5222111406779377 7.3604977420141395 1034.7143269687142 3.801224142624839
+INFO:root:###Round: 113###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.842363918293
+INFO:root:Norm of gradient vector for last iteration: 0.02795693344355133
+INFO:root:Norm of update vector: 0.00013910441237051127
+INFO:root:Updated variances: 7.378364546372829 276.8597310953484 3.4972829434383916 7.304976065426658 1034.8393172221572 3.780891937143121
+INFO:root:###Round: 114###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.835298466838
+INFO:root:Norm of gradient vector for last iteration: 0.02795098408126471
+INFO:root:Norm of update vector: 0.0001371085897429739
+INFO:root:Updated variances: 7.331538711362151 276.8739602938807 3.4727065812207307 7.250290550653008 1034.962547063021 3.760776925071246
+INFO:root:###Round: 115###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.828335533897
+INFO:root:Norm of gradient vector for last iteration: 0.027945130467348787
+INFO:root:Norm of update vector: 0.00013515685926010092
+INFO:root:Updated variances: 7.285399222545462 276.88798087042073 3.4484746375849373 7.196422380631438 1035.0840546120828 3.7408756353490467
+INFO:root:###Round: 116###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.82147283377
+INFO:root:Norm of gradient vector for last iteration: 0.02793937020717895
+INFO:root:Norm of update vector: 0.0001332479017251956
+INFO:root:Updated variances: 7.239930038277139 276.90179771978995 3.42457990349041 7.143353300222825 1035.2038768724613 3.7211846706467324
+INFO:root:###Round: 117###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.814708149941
+INFO:root:Norm of gradient vector for last iteration: 0.02793370098709847
+INFO:root:Norm of update vector: 0.00013138044778185116
+INFO:root:Updated variances: 7.195115631605568 276.91541557890343 3.401015370085306 7.09106559534643 1035.3220497709979 3.70170070541392
+INFO:root:###Round: 118###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.808039332362
+INFO:root:Norm of gradient vector for last iteration: 0.027928120570971653
+INFO:root:Norm of update vector: 0.00012955327564149135
+INFO:root:Updated variances: 7.150940969329153 276.92883903324025 3.3777742217950157 7.039542073040052 1035.4386081977882 3.682420483990392
+INFO:root:###Round: 119###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.801464295013
+INFO:root:Norm of gradient vector for last iteration: 0.02792262679692577
+INFO:root:Norm of update vector: 0.0001277652089302538
+INFO:root:Updated variances: 7.1073914920820505 276.94207252298565 3.3548498296953735 6.988766042397069 1035.5535860439613 3.6633408187763137
+INFO:root:###Round: 120###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.794981013474
+INFO:root:Norm of gradient vector for last iteration: 0.027917217574252567
+INFO:root:Norm of update vector: 0.00012601511465161719
+INFO:root:Updated variances: 7.0644530953904585 276.9551203488736 3.3322357451569977 6.93872129633564 1035.6670162377993 3.644458588459729
+INFO:root:###Round: 121###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.788587522513
+INFO:root:Norm of gradient vector for last iteration: 0.027911890880465133
+INFO:root:Norm of update vector: 0.0001243019012485082
+INFO:root:Updated variances: 7.022112111644117 276.9679866777452 3.309925693747896 6.889392094157952 1035.77893077927 3.625770736299258
+INFO:root:###Round: 122###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.782281914091
+INFO:root:Norm of gradient vector for last iteration: 0.027906644758503133
+INFO:root:Norm of update vector: 0.00012262451676916787
+INFO:root:Updated variances: 6.980355292931299 276.98067554784626 3.287913569382158 6.840763144859764 1035.8893607730606 3.607274268459995
+INFO:root:###Round: 123###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.776062334995
+INFO:root:Norm of gradient vector for last iteration: 0.02790147731406709
+INFO:root:Norm of update vector: 0.00012098194714892153
+INFO:root:Updated variances: 6.93916979468892 276.9931908738575 3.266193428703216 6.79281959115283 1035.9983364602144 3.5889662524006853
+INFO:root:###Round: 124###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.769926985118
+INFO:root:Norm of gradient vector for last iteration: 0.02789638671310153
+INFO:root:Norm of update vector: 0.00011937321453527444
+INFO:root:Updated variances: 6.898543160122485 277.0055364517009 3.2447594856907633 6.745546994164858 1036.1058872483816 3.5708438153103543
+INFO:root:###Round: 125###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.763874115371
+INFO:root:Norm of gradient vector for last iteration: 0.027891371179373105
+INFO:root:Norm of update vector: 0.00011779737574868294
+INFO:root:Updated variances: 6.858463305353457 277.0177159631117 3.2236061064810007 6.698931318783705 1036.2120417408198 3.552904142592619
+INFO:root:###Round: 126###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.757902025834
+INFO:root:Norm of gradient vector for last iteration: 0.027886428992190942
+INFO:root:Norm of update vector: 0.00011625352078513867
+INFO:root:Updated variances: 6.818918505254318 277.0297329800004 3.2027278043904164 6.652958919614289 1036.3168277641603 3.535144476395991
+INFO:root:###Round: 127###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.752009064128
+INFO:root:Norm of gradient vector for last iteration: 0.027881558484217764
+INFO:root:Norm of update vector: 0.00011474077141299855
+INFO:root:Updated variances: 6.779897379934066 277.04159096861235 3.1821192351338223 6.607616527518538 1036.420272395023 3.517562114188553
+INFO:root:###Round: 128###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.746193623563
+INFO:root:Norm of gradient vector for last iteration: 0.02787675803939585
+INFO:root:Norm of update vector: 0.00011325827982357587
+INFO:root:Updated variances: 6.741388881839186 277.05329329349786 3.161775192227852 6.562891236710282 1036.5224019855189 3.500154407375451
+INFO:root:###Round: 129###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.740454141764
+INFO:root:Norm of gradient vector for last iteration: 0.027872026090957357
+INFO:root:Norm of update vector: 0.00011180522737287067
+INFO:root:Updated variances: 6.703382283437319 277.0648432213011 3.1416906025715665 6.518770492378514 1036.623242187723 3.4829187599576987
+INFO:root:###Round: 130###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.73478909888
+INFO:root:Norm of gradient vector for last iteration: 0.027867361119541086
+INFO:root:Norm of update vector: 0.00011038082335832271
+INFO:root:Updated variances: 6.665867165452799 277.0762439243781 3.121860522196256 6.475242078813961 1036.722817977134 3.4658526272308725
+INFO:root:###Round: 131###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.729197016322
+INFO:root:Norm of gradient vector for last iteration: 0.027862761651388793
+INFO:root:Norm of update vector: 0.00010898430387190859
+INFO:root:Updated variances: 6.628833405625119 277.08749848425236 3.102280132176916 6.432294108015166 1036.82115367519 3.448953514522303
+INFO:root:###Round: 132###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.7236764552
+INFO:root:Norm of gradient vector for last iteration: 0.027858226256618296
+INFO:root:Norm of update vector: 0.00010761493070301707
+INFO:root:Updated variances: 6.592271167963149 277.09860989492233 3.082944734698268 6.389915008751662 1036.9182729708798 3.4322189759654544
+INFO:root:###Round: 133###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.718226015091
+INFO:root:Norm of gradient vector for last iteration: 0.027853753547593237
+INFO:root:Norm of update vector: 0.00010627199029085759
+INFO:root:Updated variances: 6.556170892469478 277.1095810660122 3.0638497492685337 6.3480935160629075 1037.014198941485 3.4156466133102037
+INFO:root:###Round: 134###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.712844332622
+INFO:root:Norm of gradient vector for last iteration: 0.027849342177336978
+INFO:root:Norm of update vector: 0.0001049547927423134
+INFO:root:Updated variances: 6.520523285310818 277.1204148258001 3.0449907090745376 6.306818661172871 1037.1089540725166 3.3992340747678083
+INFO:root:###Round: 135###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.707530080326
+INFO:root:Norm of gradient vector for last iteration: 0.027844990838051635
+INFO:root:Norm of update vector: 0.00010366267086905437
+INFO:root:Updated variances: 6.48531930941182 277.13111392410144 3.0263632574720014 6.266079761801147 1037.2025602768483 3.382979053889379
+INFO:root:###Round: 136###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.702281965427
+INFO:root:Norm of gradient vector for last iteration: 0.027840698259674678
+INFO:root:Norm of update vector: 0.00010239497929282592
+INFO:root:Updated variances: 6.450550175450919 277.1416810350369 3.007963144605222 6.225866412852531 1037.2950389131115 3.3668792884767345
+INFO:root:###Round: 137###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.697098728619
+INFO:root:Norm of gradient vector for last iteration: 0.02783646320851097
+INFO:root:Norm of update vector: 0.00010115109358969916
+INFO:root:Updated variances: 6.416207333238114 277.15211875967896 2.989786224150587 6.186168477467868 1037.3864108033831 3.3509325595245443
+INFO:root:###Round: 138###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.69197914311
+INFO:root:Norm of gradient vector for last iteration: 0.02783228448592679
+INFO:root:Norm of update vector: 9.9930409459012e-05
+INFO:root:Updated variances: 6.382282463455711 277.1624296285875 2.9718284501786703 6.146976078419935 1037.476696250179 3.335136690192718
+INFO:root:###Round: 139###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.686922013423
+INFO:root:Norm of gradient vector for last iteration: 0.027828160927095377
+INFO:root:Norm of update vector: 9.873234194273364e-05
+INFO:root:Updated variances: 6.348767469744124 277.17261610423765 2.9540858741298925 6.108279589838886 1037.565915052802 3.319489544808038
+INFO:root:###Round: 140###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.681926174513
+INFO:root:Norm of gradient vector for last iteration: 0.027824091399792847
+INFO:root:Norm of update vector: 9.755632469038261e-05
+INFO:root:Updated variances: 6.315654471115869 277.1826805833474 2.9365546418989736 6.070069629252629 1037.6540865230834 3.3039890278940605
+INFO:root:###Round: 141###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.676990490601
+INFO:root:Norm of gradient vector for last iteration: 0.027820074803260483
+INFO:root:Norm of update vector: 9.640180921973986e-05
+INFO:root:Updated variances: 6.282935794681815 277.1926253991117 2.9192309910236394 6.032337049928214 1037.7412295004976 3.2886330832283637
+INFO:root:###Round: 142###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.672113854449
+INFO:root:Norm of gradient vector for last iteration: 0.027816110067092666
+INFO:root:Norm of update vector: 9.526826426607133e-05
+INFO:root:Updated variances: 6.250603968674625 277.202452823337 2.9021112479732483 5.995072933501017 1037.8273623667512 3.2734196929262382
+INFO:root:###Round: 143###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.66729518634
+INFO:root:Norm of gradient vector for last iteration: 0.027812196150196485
+INFO:root:Norm of update vector: 9.415517510071651e-05
+INFO:root:Updated variances: 6.218651715755182 277.21216506849794 2.885191825533224 5.958268582879164 1037.912503059788 3.2583468765499646
+INFO:root:###Round: 144###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.662533433286
+INFO:root:Norm of gradient vector for last iteration: 0.02780833203976901
+INFO:root:Norm of update vector: 9.306204293859868e-05
+INFO:root:Updated variances: 6.1870719465885395 277.22176428970414 2.868469220281355 5.9219155154112615 1037.9966690873157 3.2434126902428395
+INFO:root:###Round: 145###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.657827568084
+INFO:root:Norm of gradient vector for last iteration: 0.02780451675034326
+INFO:root:Norm of update vector: 9.198838431437599e-05
+INFO:root:Updated variances: 6.155857753676716 277.2312525865915 2.851940010152223 5.886005456306106 1038.079877539799 3.22861522588716
+INFO:root:###Round: 146###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.653176588616
+INFO:root:Norm of gradient vector for last iteration: 0.027800749322848137
+INFO:root:Norm of update vector: 9.093373053700889e-05
+INFO:root:Updated variances: 6.125002405436264 277.24063200513785 2.835600852086181 5.8505303322935545 1038.1621451030073 3.213952610285386
+INFO:root:###Round: 147###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.648579517048
+INFO:root:Norm of gradient vector for last iteration: 0.027797028823728715
+INFO:root:Norm of update vector: 8.989762713138298e-05
+INFO:root:Updated variances: 6.094499340509269 277.24990453940154 2.8194484797594783 5.815482265516327 1038.2434880700891 3.199423004363746
+INFO:root:###Round: 148###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.64403539906
+INFO:root:Norm of gradient vector for last iteration: 0.02779335434408417
+INFO:root:Norm of update vector: 8.887963332296276e-05
+INFO:root:Updated variances: 6.064342162296983 277.2590721332042 2.8034797013922756 5.780853567642946 1038.3239223532191 3.185024602397568
+INFO:root:###Round: 149###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.639543303161
+INFO:root:Norm of gradient vector for last iteration: 0.027789724998855875
+INFO:root:Norm of update vector: 8.78793215394777e-05
+INFO:root:Updated variances: 6.034524633705887 277.2681366817293 2.7876913976314537 5.746636734192529 1038.403463494828 3.170755631257645
+INFO:root:###Round: 150###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.635102319973
+INFO:root:Norm of gradient vector for last iteration: 0.027786139926031975
+INFO:root:Norm of update vector: 8.68962769333666e-05
+INFO:root:Updated variances: 6.005040672096524 277.27710003307783 2.7720805195052454 5.712824439062594 1038.482126678432 3.1566143496769747
+INFO:root:###Round: 151###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.630711561638
+INFO:root:Norm of gradient vector for last iteration: 0.027782598285901745
+INFO:root:Norm of update vector: 8.593009692317894e-05
+INFO:root:Updated variances: 5.975884344425916 277.28596398974895 2.7566440864468653 5.679409529251417 1038.559926739078 3.1425990475372285
+INFO:root:###Round: 152###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.626370161066
+INFO:root:Norm of gradient vector for last iteration: 0.027779099260321034
+INFO:root:Norm of update vector: 8.498039075771602e-05
+INFO:root:Updated variances: 5.947049862574886 277.2947303100748 2.741379184384436 5.646385019766939 1038.6368781734234 3.128708045174338
+INFO:root:###Round: 153###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.622077271426
+INFO:root:Norm of gradient vector for last iteration: 0.027775642052019687
+INFO:root:Norm of update vector: 8.404677909755255e-05
+INFO:root:Updated variances: 5.918531578852037 277.3034007095933 2.726282963894624 5.6137440887145456 1038.7129951494658 3.114939692702596
+INFO:root:###Round: 154###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.617832065447
+INFO:root:Norm of gradient vector for last iteration: 0.027772225883931734
+INFO:root:Norm of update vector: 8.312889360899974e-05
+INFO:root:Updated variances: 5.890323981666555 277.3119768623735 2.7113526384175235 5.58148007255643 1038.7882915159305 3.1012923693567043
+INFO:root:###Round: 155###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.61363373498
+INFO:root:Norm of gradient vector for last iteration: 0.027768849998547056
+INFO:root:Norm of update vector: 8.222637658421548e-05
+INFO:root:Updated variances: 5.862421691362415 277.32046040228965 2.6965854825304216 5.54958646153558 1038.8627808113404 3.087764482851213
+INFO:root:###Round: 156###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.60948149026
+INFO:root:Norm of gradient vector for last iteration: 0.02776551365729682
+INFO:root:Norm of update vector: 8.133888056560548e-05
+INFO:root:Updated variances: 5.834819456206934 277.32885292424896 2.6819788302781973 5.518056895257745 1038.9364762727678 3.074354468756814
+INFO:root:###Round: 157###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.605374559576
+INFO:root:Norm of gradient vector for last iteration: 0.027762216139954818
+INFO:root:Norm of update vector: 8.046606799441203e-05
+INFO:root:Updated variances: 5.80751214852697 277.33715598537236 2.66753007355819 5.48688515842505 1039.0093908442927 3.0610607898929736
+INFO:root:###Round: 158###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.601312188626
+INFO:root:Norm of gradient vector for last iteration: 0.02775895674406084
+INFO:root:Norm of update vector: 7.960761087822566e-05
+INFO:root:Updated variances: 5.780494760986395 277.34537110612945 2.6532366605574764 5.456065176715218 1039.0815371851847 3.0478819357364095
+INFO:root:###Round: 159###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.597293640012
+INFO:root:Norm of gradient vector for last iteration: 0.027755734784377647
+INFO:root:Norm of update vector: 7.876319044225636e-05
+INFO:root:Updated variances: 5.753762402998793 277.3534997714428 2.6390960942405837 5.425591012800625 1039.15292767778 3.0348164218449294
+INFO:root:###Round: 160###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.593318192838
+INFO:root:Norm of gradient vector for last iteration: 0.027752549592350233
+INFO:root:Norm of update vector: 7.793249684289801e-05
+INFO:root:Updated variances: 5.727310297269622 277.361543431738 2.6251059308857414 5.395456862501667 1039.2235744351306 3.0218627892961645
+INFO:root:###Round: 161###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.589385142219
+INFO:root:Norm of gradient vector for last iteration: 0.027749400515599643
+INFO:root:Norm of update vector: 7.711522884734047e-05
+INFO:root:Updated variances: 5.701133776462372 277.3695035039673 2.6112637786678707 5.365657051069194 1039.2934893083734 3.009019604140757
+INFO:root:###Round: 162###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.585493798782
+INFO:root:Norm of gradient vector for last iteration: 0.027746286917429995
+INFO:root:Norm of update vector: 7.631109355394653e-05
+INFO:root:Updated variances: 5.675228279983489 277.3773813725859 2.5975672962865706 5.336186029590972 1039.3626838938699 2.9962854568695607
+INFO:root:###Round: 163###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.581643488295
+INFO:root:Norm of gradient vector for last iteration: 0.027743208176351297
+INFO:root:Norm of update vector: 7.551980610949356e-05
+INFO:root:Updated variances: 5.649589350881142 277.385178390506 2.584014191637447 5.30703837151736 1039.4311695401016 2.9836589618944442
+INFO:root:###Round: 164###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.577833551257
+INFO:root:Norm of gradient vector for last iteration: 0.027740163685624288
+INFO:root:Norm of update vector: 7.474108944758518e-05
+INFO:root:Updated variances: 5.62421263285305 277.3928958800078 2.5706022205251915 5.278208769301618 1039.49895735435 2.971138757042285
+INFO:root:###Round: 165###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.574063342387
+INFO:root:Norm of gradient vector for last iteration: 0.02773715285281971
+INFO:root:Norm of update vector: 7.397467402492879e-05
+INFO:root:Updated variances: 5.599093867358945 277.40053513362216 2.5573291854168847 5.249692031150454 1039.5660582091489 2.9587235030617762
+INFO:root:###Round: 166###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.570332230393
+INFO:root:Norm of gradient vector for last iteration: 0.0277341750993909
+INFO:root:Norm of update vector: 7.322029758409356e-05
+INFO:root:Updated variances: 5.574228890833319 277.40809741498015 2.5441929342340677 5.221483077880597 1039.6324827485398 2.946411883142653
+INFO:root:###Round: 167###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.56663959745
+INFO:root:Norm of gradient vector for last iteration: 0.02773122986026842
+INFO:root:Norm of update vector: 7.247770490689055e-05
+INFO:root:Updated variances: 5.5496136319944025 277.41558395963636 2.531191359182179 5.193576939877385 1039.6982413941164 2.934202602446992
+INFO:root:###Round: 168###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.562984838909
+INFO:root:Norm of gradient vector for last iteration: 0.027728316583461737
+INFO:root:Norm of update vector: 7.174664758919954e-05
+INFO:root:Updated variances: 5.525244109245488 277.4229959758611 2.5183223956160132 5.165968754151531 1039.763344350878 2.922094387652215
+INFO:root:###Round: 169###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.559367362996
+INFO:root:Norm of gradient vector for last iteration: 0.02772543472967696
+INFO:root:Norm of update vector: 7.102688382599734e-05
+INFO:root:Updated variances: 5.501116428164854 277.43033464540866 2.5055840209399163 5.1386537614903585 1039.8278016129032 2.9100859865054733
+INFO:root:###Round: 170###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.555786590287
+INFO:root:Norm of gradient vector for last iteration: 0.027722583771952206
+INFO:root:Norm of update vector: 7.031817819775012e-05
+INFO:root:Updated variances: 5.477226779080772 277.43760112425406 2.492974253541478 5.111627303700018 1039.8916229688423 2.8981761673890634
+INFO:root:###Round: 171###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.552241953523
+INFO:root:Norm of gradient vector for last iteration: 0.027719763195300364
+INFO:root:Norm of update vector: 6.962030146068572e-05
+INFO:root:Updated variances: 5.453571434728212 277.4447965433119 2.480491151757542 5.084884820935283 1039.954818007228 2.886363718896578
+INFO:root:###Round: 172###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.548732897405
+INFO:root:Norm of gradient vector for last iteration: 0.027716972496366902
+INFO:root:Norm of update vector: 6.893303036060774e-05
+INFO:root:Updated variances: 5.430146747984001 277.45192200912646 2.4681328128713926 5.0584218491137 1040.0173961216326 2.874647449419468
+INFO:root:###Round: 173###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.545258877946
+INFO:root:Norm of gradient vector for last iteration: 0.027714211183098737
+INFO:root:Norm of update vector: 6.825614744312335e-05
+INFO:root:Updated variances: 5.406949149677384 277.45897860453465 2.455897372140022 5.03223401741101 1040.0793665156652 2.8630261867437223
+INFO:root:###Round: 174###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.54181936244
+INFO:root:Norm of gradient vector for last iteration: 0.02771147877442914
+INFO:root:Norm of update vector: 6.758944085732347e-05
+INFO:root:Updated variances: 5.383975146473023 277.46596738931845 2.443783001850439 5.006317045834858 1040.1407382077925 2.851498777656383
+INFO:root:###Round: 175###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.538413829137
+INFO:root:Norm of gradient vector for last iteration: 0.02770877479995472
+INFO:root:Norm of update vector: 6.693270420723689e-05
+INFO:root:Updated variances: 5.361221318823628 277.4728894008302 2.4317879104040037 4.980666742873951 1040.2015200360468 2.8400640875616086
+INFO:root:###Round: 176###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.535041766854
+INFO:root:Norm of gradient vector for last iteration: 0.027706098799657686
+INFO:root:Norm of update vector: 6.628573636157564e-05
+INFO:root:Updated variances: 5.338684318989535 277.4797456545886 2.419910341427823 4.955279003219943 1040.2617206625634 2.82872100010602
+INFO:root:###Round: 177###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.531702674833
+INFO:root:Norm of gradient vector for last iteration: 0.027703450323599853
+INFO:root:Norm of update vector: 6.564834130262081e-05
+INFO:root:Updated variances: 5.31636086912267 277.48653714486915 2.4081485729122836 4.930149805559432 1040.3213485779934 2.8174684168130693
+INFO:root:###Round: 178###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.528396062291
+INFO:root:Norm of gradient vector for last iteration: 0.027700828931659663
+INFO:root:Norm of update vector: 6.502032795524828e-05
+INFO:root:Updated variances: 5.294247759412438 277.49326484526796 2.396500916373819 4.905275210433556 1040.3804121057642 2.8063052567261777
+INFO:root:###Round: 179###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.525121448452
+INFO:root:Norm of gradient vector for last iteration: 0.02769823419324397
+INFO:root:Norm of update vector: 6.440151006180235e-05
+INFO:root:Updated variances: 5.27234184629119 277.49992970924785 2.3849657160420628 4.880651358162795 1040.4389194062462 2.795230456060395
+INFO:root:###Round: 180###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.52187836198
+INFO:root:Norm of gradient vector for last iteration: 0.027695665687044534
+INFO:root:Norm of update vector: 6.37917060119231e-05
+INFO:root:Updated variances: 5.250640050697022 277.50653267067116 2.373541348070554 4.85627446683465 1040.496878480762 2.7842429678623475
+INFO:root:###Round: 181###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.518666340997
+INFO:root:Norm of gradient vector for last iteration: 0.02769312300077937
+INFO:root:Norm of update vector: 6.319073871300984e-05
+INFO:root:Updated variances: 5.2291393563917685 277.51307464430886 2.3622262197702097 4.832140830352016 1040.5542971754917 2.773341761678244
+INFO:root:###Round: 182###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.515484932637
+INFO:root:Norm of gradient vector for last iteration: 0.027690605730948666
+INFO:root:Norm of update vector: 6.259843545394731e-05
+INFO:root:Updated variances: 5.207836808332114 277.5195565263376 2.351018768864796 4.80824681654009 1040.61118318526 2.762525823229717
+INFO:root:###Round: 183###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.51233369301
+INFO:root:Norm of gradient vector for last iteration: 0.027688113482598666
+INFO:root:Norm of update vector: 6.201462777504064e-05
+INFO:root:Updated variances: 5.186729511091878 277.5259791948216 2.339917462767666 4.784588865309794 1040.6675440572142 2.751794154097286
+INFO:root:###Round: 184###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.509212186877
+INFO:root:Norm of gradient vector for last iteration: 0.027685645869097983
+INFO:root:Norm of update vector: 6.143915133725752e-05
+INFO:root:Updated variances: 5.16581462733357 277.53234351017744 2.3289207978790585 4.761163486875747 1040.7233871943872 2.7411457714112304
+INFO:root:###Round: 185###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.5061199874
+INFO:root:Norm of gradient vector for last iteration: 0.027683202511909404
+INFO:root:Norm of update vector: 6.087184580704095e-05
+INFO:root:Updated variances: 5.145089376327417 277.53865031562674 2.3180272989032793 4.737967260026903 1040.7787198591661 2.730579707549675
+INFO:root:###Round: 186###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.503056676083
+INFO:root:Norm of gradient vector for last iteration: 0.027680783040382555
+INFO:root:Norm of update vector: 6.0312554739223586e-05
+INFO:root:Updated variances: 5.124551032516133 277.54490043763025 2.3072355181851076 4.714996830448045 1040.8335491766597 2.720095009843688
+INFO:root:###Round: 187###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.500021842396
+INFO:root:Norm of gradient vector for last iteration: 0.027678387091547924
+INFO:root:Norm of update vector: 5.97611254476205e-05
+INFO:root:Updated variances: 5.10419692412378 277.55109468631474 2.296544035064807 4.692248909090395 1040.88788213795 2.7096907402892065
+INFO:root:###Round: 188###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.497015083694
+INFO:root:Norm of gradient vector for last iteration: 0.02767601430990651
+INFO:root:Norm of update vector: 5.921740892355351e-05
+INFO:root:Updated variances: 5.0840244318071175 277.55723385588294 2.285951455251122 4.669720270589681 1040.9417256032848 2.6993659752656027
+INFO:root:###Round: 189###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.494036004993
+INFO:root:Norm of gradient vector for last iteration: 0.02767366434724869
+INFO:root:Norm of update vector: 5.868125970131882e-05
+INFO:root:Updated variances: 5.064030987347931 277.5633187250091 2.27545641021169 4.64740775173004 1040.995086305144 2.6891198052607113
+INFO:root:###Round: 190###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.491084218796
+INFO:root:Norm of gradient vector for last iteration: 0.02767133686245697
+INFO:root:Norm of update vector: 5.8152535774891766e-05
+INFO:root:Updated variances: 5.044214072384874 277.5693500572315 2.2650575565802984 4.625308249952221 1041.0479708512419 2.678951334602149
+INFO:root:###Round: 191###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.488159344917
+INFO:root:Norm of gradient vector for last iteration: 0.0276690315213268
+INFO:root:Norm of update vector: 5.763109849409655e-05
+INFO:root:Updated variances: 5.024571217183421 277.5753286013193 2.2547535755804486 4.603418721904603 1041.1003857274388 2.6688596811947587
+INFO:root:###Round: 192###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.485261010219
+INFO:root:Norm of gradient vector for last iteration: 0.02766674799639257
+INFO:root:Norm of update vector: 5.711681246383831e-05
+INFO:root:Updated variances: 5.005099999442593 277.58125509163835 2.2445431724647067 4.5817361820356 1041.152337300565 2.6588439762640106
+INFO:root:###Round: 193###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.482388848688
+INFO:root:Norm of gradient vector for last iteration: 0.027664485966749548
+INFO:root:Norm of update vector: 5.660954546053593e-05
+INFO:root:Updated variances: 4.985798043137159 277.5871302485102 2.234425075969335 4.5602577012260745 1041.2038318211742 2.6489033641052107
+INFO:root:###Round: 194###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.479542500952
+INFO:root:Norm of gradient vector for last iteration: 0.02766224511790117
+INFO:root:Norm of update vector: 5.6109168330445565e-05
+INFO:root:Updated variances: 4.966663017394084 277.5929547785415 2.224398037783725 4.538980405460445 1041.2548754262084 2.6390370018383567
+INFO:root:###Round: 195###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.47672161434
+INFO:root:Norm of gradient vector for last iteration: 0.027660025141577733
+INFO:root:Norm of update vector: 5.561555492148341e-05
+INFO:root:Updated variances: 4.947692635402032 277.598729374968 2.214460832034159 4.517901474535211 1041.3054741416083 2.629244059168499
+INFO:root:###Round: 196###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.473925842676
+INFO:root:Norm of gradient vector for last iteration: 0.02765782573560243
+INFO:root:Norm of update vector: 5.512858197925271e-05
+INFO:root:Updated variances: 4.928884653352777 277.60445471796913 2.204612254781458 4.49701814080367 1041.3556338848286 2.6195237181514583
+INFO:root:###Round: 197###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.471154846047
+INFO:root:Norm of gradient vector for last iteration: 0.027655646603723
+INFO:root:Norm of update vector: 5.464812908549385e-05
+INFO:root:Updated variances: 4.910236869413437 277.6101314749844 2.1948511235320733 4.476327687955645 1041.4053604673065 2.6098751729647653
+INFO:root:###Round: 198###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.468408290864
+INFO:root:Norm of gradient vector for last iteration: 0.027653487455477636
+INFO:root:Norm of update vector: 5.417407856125574e-05
+INFO:root:Updated variances: 4.891747122728469 277.61576030101486 2.1851762767622107 4.4558274498311015 1041.4546595968409 2.600297629683682
+INFO:root:###Round: 199###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.465685849427
+INFO:root:Norm of gradient vector for last iteration: 0.027651348006042773
+INFO:root:Norm of update vector: 5.370631540694356e-05
+INFO:root:Updated variances: 4.873413292450424 277.6213418389189 2.175586573454581 4.435514809266542 1041.5035368799254 2.590790306062176
+INFO:root:###Round: 200###
+INFO:root:EM weight value: 0.01
+INFO:root:-2logL for last iteration: -16329.462987200104
+INFO:root:Norm of gradient vector for last iteration: 0.027649227976098766
+INFO:root:Norm of update vector: 5.3244727224059394e-05
+INFO:root:Updated variances: 4.8552332967984775 277.62687671969957 2.166080892647386 4.415387196973133 1041.5519978240127 2.5813524313187233
+INFO:root:Variances not converged.
+INFO:root:Calculate the phenotypic covariance matrix and inversion
+INFO:root:Calculate P matrix
+INFO:root:Read the SNP
+INFO:root:The scaled factor is: 163.286
+INFO:root:Test
+  0%|          | 0/999 [00:00<?, ?it/s]/gpfs/home/grenjith/.local/lib/python3.8/site-packages/gmat/remma/remma_epiDD/remma_epiDD.py:80: RuntimeWarning: invalid value encountered in true_divide
+  chi_vec = eff_vec * eff_vec / var_vec
+  0%|          | 4/999 [00:00<00:29, 33.77it/s]  1%|          | 8/999 [00:00<00:27, 35.85it/s]  1%|          | 12/999 [00:00<00:27, 36.18it/s]  2%|▏         | 16/999 [00:00<00:26, 36.77it/s]  2%|▏         | 20/999 [00:00<00:26, 37.36it/s]  2%|▏         | 24/999 [00:00<00:26, 37.45it/s]  3%|▎         | 28/999 [00:00<00:26, 37.10it/s]  3%|▎         | 32/999 [00:00<00:25, 37.97it/s]  4%|▎         | 36/999 [00:00<00:25, 38.29it/s]  4%|▍         | 41/999 [00:01<00:24, 38.91it/s]  5%|▍         | 45/999 [00:01<00:24, 39.07it/s]  5%|▌         | 50/999 [00:01<00:23, 39.64it/s]  5%|▌         | 54/999 [00:01<00:23, 39.60it/s]  6%|▌         | 59/999 [00:01<00:23, 40.35it/s]  6%|▋         | 64/999 [00:01<00:23, 39.84it/s]  7%|▋         | 68/999 [00:01<00:23, 39.86it/s]  7%|▋         | 72/999 [00:01<00:23, 39.13it/s]  8%|▊         | 76/999 [00:01<00:23, 39.36it/s]  8%|▊         | 80/999 [00:02<00:23, 39.37it/s]  9%|▊         | 85/999 [00:02<00:22, 40.20it/s]  9%|▉         | 90/999 [00:02<00:22, 40.16it/s] 10%|▉         | 95/999 [00:02<00:22, 39.71it/s] 10%|█         | 100/999 [00:02<00:22, 40.72it/s] 11%|█         | 105/999 [00:02<00:21, 40.87it/s] 11%|█         | 110/999 [00:02<00:22, 40.39it/s] 12%|█▏        | 115/999 [00:02<00:21, 41.11it/s] 12%|█▏        | 120/999 [00:03<00:21, 40.45it/s] 13%|█▎        | 125/999 [00:03<00:21, 40.45it/s] 13%|█▎        | 130/999 [00:03<00:21, 39.91it/s] 14%|█▎        | 135/999 [00:03<00:21, 40.18it/s] 14%|█▍        | 140/999 [00:03<00:20, 41.12it/s] 15%|█▍        | 145/999 [00:03<00:20, 42.16it/s] 15%|█▌        | 150/999 [00:03<00:20, 42.05it/s] 16%|█▌        | 155/999 [00:03<00:19, 42.45it/s] 16%|█▌        | 160/999 [00:04<00:19, 42.60it/s] 17%|█▋        | 165/999 [00:04<00:19, 42.55it/s] 17%|█▋        | 170/999 [00:04<00:19, 42.15it/s] 18%|█▊        | 175/999 [00:04<00:19, 43.02it/s] 18%|█▊        | 180/999 [00:04<00:19, 42.62it/s] 19%|█▊        | 185/999 [00:04<00:18, 42.90it/s] 19%|█▉        | 190/999 [00:04<00:18, 43.21it/s] 20%|█▉        | 195/999 [00:04<00:18, 42.81it/s] 20%|██        | 200/999 [00:04<00:18, 43.02it/s] 21%|██        | 205/999 [00:05<00:18, 43.16it/s] 21%|██        | 210/999 [00:05<00:18, 43.58it/s] 22%|██▏       | 215/999 [00:05<00:17, 44.36it/s] 22%|██▏       | 220/999 [00:05<00:17, 45.30it/s] 23%|██▎       | 225/999 [00:05<00:16, 46.40it/s] 23%|██▎       | 230/999 [00:05<00:16, 45.70it/s] 24%|██▎       | 235/999 [00:05<00:16, 46.20it/s] 24%|██▍       | 240/999 [00:05<00:16, 46.40it/s] 25%|██▍       | 245/999 [00:05<00:16, 46.07it/s] 25%|██▌       | 250/999 [00:06<00:16, 46.66it/s] 26%|██▌       | 255/999 [00:06<00:15, 47.24it/s] 26%|██▌       | 260/999 [00:06<00:15, 47.60it/s] 27%|██▋       | 265/999 [00:06<00:15, 47.56it/s] 27%|██▋       | 270/999 [00:06<00:15, 46.86it/s] 28%|██▊       | 275/999 [00:06<00:15, 46.79it/s] 28%|██▊       | 280/999 [00:06<00:15, 47.56it/s] 29%|██▊       | 286/999 [00:06<00:14, 48.88it/s] 29%|██▉       | 291/999 [00:06<00:14, 48.93it/s] 30%|██▉       | 297/999 [00:06<00:14, 49.67it/s] 30%|███       | 303/999 [00:07<00:13, 50.02it/s] 31%|███       | 309/999 [00:07<00:13, 50.19it/s] 32%|███▏      | 315/999 [00:07<00:13, 49.48it/s] 32%|███▏      | 321/999 [00:07<00:13, 49.87it/s] 33%|███▎      | 327/999 [00:07<00:13, 50.36it/s] 33%|███▎      | 333/999 [00:07<00:13, 50.53it/s] 34%|███▍      | 339/999 [00:07<00:12, 50.78it/s] 35%|███▍      | 345/999 [00:07<00:12, 51.29it/s] 35%|███▌      | 351/999 [00:08<00:12, 51.39it/s] 36%|███▌      | 357/999 [00:08<00:12, 52.08it/s] 36%|███▋      | 363/999 [00:08<00:12, 52.39it/s] 37%|███▋      | 369/999 [00:08<00:11, 52.73it/s] 38%|███▊      | 375/999 [00:08<00:11, 52.95it/s] 38%|███▊      | 381/999 [00:08<00:11, 54.07it/s] 39%|███▊      | 387/999 [00:08<00:11, 54.17it/s] 39%|███▉      | 393/999 [00:08<00:10, 55.22it/s] 40%|███▉      | 399/999 [00:08<00:10, 56.01it/s] 41%|████      | 405/999 [00:09<00:10, 55.54it/s] 41%|████      | 411/999 [00:09<00:10, 55.74it/s] 42%|████▏     | 417/999 [00:09<00:10, 55.45it/s] 42%|████▏     | 424/999 [00:09<00:10, 57.15it/s] 43%|████▎     | 431/999 [00:09<00:09, 57.97it/s] 44%|████▎     | 437/999 [00:09<00:09, 57.85it/s] 44%|████▍     | 444/999 [00:09<00:09, 58.98it/s] 45%|████▌     | 450/999 [00:09<00:09, 58.96it/s] 46%|████▌     | 457/999 [00:09<00:09, 59.78it/s] 46%|████▋     | 464/999 [00:10<00:08, 61.21it/s] 47%|████▋     | 471/999 [00:10<00:08, 61.72it/s] 48%|████▊     | 478/999 [00:10<00:08, 61.31it/s] 49%|████▊     | 485/999 [00:10<00:08, 61.67it/s] 49%|████▉     | 492/999 [00:10<00:08, 62.78it/s] 50%|████▉     | 499/999 [00:10<00:07, 63.69it/s] 51%|█████     | 506/999 [00:10<00:07, 64.31it/s] 51%|█████▏    | 513/999 [00:10<00:07, 65.03it/s] 52%|█████▏    | 520/999 [00:10<00:07, 66.04it/s] 53%|█████▎    | 528/999 [00:10<00:06, 67.30it/s] 54%|█████▎    | 536/999 [00:11<00:06, 68.46it/s] 54%|█████▍    | 544/999 [00:11<00:06, 69.44it/s] 55%|█████▌    | 551/999 [00:11<00:06, 69.51it/s] 56%|█████▌    | 559/999 [00:11<00:06, 70.19it/s] 57%|█████▋    | 567/999 [00:11<00:06, 71.13it/s] 58%|█████▊    | 575/999 [00:11<00:05, 73.06it/s] 58%|█████▊    | 583/999 [00:11<00:05, 74.43it/s] 59%|█████▉    | 591/999 [00:11<00:05, 74.97it/s] 60%|█████▉    | 599/999 [00:11<00:05, 75.40it/s] 61%|██████    | 607/999 [00:12<00:05, 76.16it/s] 62%|██████▏   | 615/999 [00:12<00:04, 76.98it/s] 62%|██████▏   | 624/999 [00:12<00:04, 79.39it/s] 63%|██████▎   | 632/999 [00:12<00:04, 79.50it/s] 64%|██████▍   | 641/999 [00:12<00:04, 80.18it/s] 65%|██████▌   | 650/999 [00:12<00:04, 81.41it/s] 66%|██████▌   | 659/999 [00:12<00:04, 81.95it/s] 67%|██████▋   | 668/999 [00:12<00:03, 83.04it/s] 68%|██████▊   | 678/999 [00:12<00:03, 85.42it/s] 69%|██████▉   | 688/999 [00:13<00:03, 88.56it/s] 70%|██████▉   | 698/999 [00:13<00:03, 90.09it/s] 71%|███████   | 708/999 [00:13<00:03, 91.00it/s] 72%|███████▏  | 718/999 [00:13<00:03, 91.87it/s] 73%|███████▎  | 728/999 [00:13<00:02, 93.48it/s] 74%|███████▍  | 739/999 [00:13<00:02, 95.95it/s] 75%|███████▍  | 749/999 [00:13<00:02, 96.85it/s] 76%|███████▌  | 760/999 [00:13<00:02, 99.06it/s] 77%|███████▋  | 771/999 [00:13<00:02, 100.44it/s] 78%|███████▊  | 782/999 [00:13<00:02, 102.11it/s] 79%|███████▉  | 794/999 [00:14<00:01, 105.05it/s] 81%|████████  | 806/999 [00:14<00:01, 106.95it/s] 82%|████████▏ | 818/999 [00:14<00:01, 110.23it/s] 83%|████████▎ | 830/999 [00:14<00:01, 111.94it/s] 84%|████████▍ | 843/999 [00:14<00:01, 115.08it/s] 86%|████████▌ | 856/999 [00:14<00:01, 117.46it/s] 87%|████████▋ | 870/999 [00:14<00:01, 121.78it/s] 88%|████████▊ | 884/999 [00:14<00:00, 124.59it/s] 90%|████████▉ | 898/999 [00:14<00:00, 127.14it/s] 91%|█████████▏| 912/999 [00:15<00:00, 129.99it/s] 93%|█████████▎| 927/999 [00:15<00:00, 133.90it/s] 94%|█████████▍| 943/999 [00:15<00:00, 139.63it/s] 96%|█████████▌| 959/999 [00:15<00:00, 145.17it/s] 98%|█████████▊| 977/999 [00:15<00:00, 155.17it/s]100%|██████████| 999/999 [00:15<00:00, 64.36it/s] 
+INFO:root:Running time: Clock time, 15.52251 sec; CPU time, 248.21842 sec.
