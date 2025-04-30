@@ -1,1 +1,0 @@
-snp1	snp2	pvalue
