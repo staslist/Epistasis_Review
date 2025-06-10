@@ -7,7 +7,7 @@ The datasets in Epigen_Datasets have already been formatted for the tools includ
 The adolescent brain cognitive development (ABCD) data used in the study can only be obtained by requesting access from national institute of mental health (NIMH):
 https://nda.nih.gov/abcd/request-access  
 
-Further information regarding the simulated datasets can be found in main text and supplemental (supplemental file S1) of our publication.  
+Further information regarding the simulated datasets can be found in publication and within the (Epigen_Dataset_Specifications.docx) file in the repository.
 
 Software:  
 The individual epistasis detection tools used in the study can be found online:  
@@ -18,7 +18,7 @@ PLINK Epistasis / BOOST: https://www.cog-genomics.org/plink/
 QMDR / MDR: https://sourceforge.net/projects/mdr/files/  
 REMMA: https://github.com/chaoning/REMMA  
 
-Further information on runtime configuration for each tool can be found in main text and supplemental (supplemental file S2).  
+Further information on runtime configuration for each tool can be found in publication and (Input_) file in the repository.
 
 Expected Output:  
 The Epigen_Analysis_Results folder contains the outputs generated when evaluating all of the included software on Epigen simulated datasets.  
